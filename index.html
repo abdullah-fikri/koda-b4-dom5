@@ -11,6 +11,10 @@
 
     <script>
         document.body.style.backgroundColor = "rgb(129, 203, 203)"
+        document.body.style.display = "flex"
+        document.body.style.flexDirection = "column"
+        document.body.style.alignItems = "center"
+        document.body.style.marginTop = "200px"
 
         const input = document.createElement("input")
         input.setAttribute("type", "text")
@@ -22,7 +26,9 @@
         input.style.backgroundColor = " rgb(71, 99, 101)"
         input.style.margin = "20px auto"
         input.style.fontSize = "3rem"
+        input.style.width = "90%"
         document.body.prepend(input)
+        
 
         const container = document.getElementsByClassName("container")[0]
 
@@ -34,6 +40,7 @@
         container.style.backgroundColor = "rgb(129, 203, 203)"
         container.style.borderRadius = "10px"
         container.style.padding = "5px"
+        container.style.width = "90%"
         const isi = [
             "D",
             "AC",
